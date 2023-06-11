@@ -269,12 +269,12 @@ const EditPage = ({ canUpdate }) => {
                       </Typography>
                       <Grid gap={5}>
                         <GridItem col={6} xs={12}>
-                          <SelectRoles
+                          {/* <SelectRoles
                             disabled={!canUpdate}
                             error={errors.roles}
                             onChange={handleChange}
                             value={values.roles}
-                          />
+                          /> */}
                         </GridItem>
                       </Grid>
                     </Flex>

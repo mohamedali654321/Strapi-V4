@@ -13,6 +13,7 @@ COPY  ./src/admin/extensions/plugin-email/translations/. ./node_modules/@strapi/
 COPY  ./src/admin/extensions/plugin-i18n/translations/. ./node_modules/@strapi/plugin-i18n/admin/src/translations
 COPY  ./src/admin/extensions/plugin-upload/translations/. ./node_modules/@strapi/plugin-upload/admin/src/translations
 COPY  ./src/admin/extensions/plugin-users-permissions/translations/. ./node_modules/@strapi/plugin-users-permissions/admin/src/translations
+COPY  ./src/admin/plugin-users-permissions/. ./node_modules/@strapi/plugin-users-permissions
 WORKDIR /opt/app
 COPY ./ .
 RUN npm run build

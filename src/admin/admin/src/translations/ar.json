@@ -857,7 +857,6 @@
   "global.plugins.upload.description": "إدارة ملفات الوسائط.",
   "global.plugins.users-permissions": "الأدوار والصلاحيات",
   "global.plugins.users-permissions.description": "قم بحماية واجهة برمجة التطبيقات الخاصة بك من خلال عملية استيثاق كاملة تعتمد على JWT. يأتي هذا البرنامج المساعد أيضاً مع إستراتيجية قائمة التحكم بالوصول (ACL) التي تتيح لك إدارة الصلاحيات بين مجموعات المستخدمين.",
-  "global.profile": "Profile",
   "global.prompt.unsaved": "هل أنت متأكد أنك تريد مغادرة هذه الصفحة؟ ستفقد كل تعديلاتك",
   "global.reset-password": "إعادة تعيين كلمة المرور",
   "global.roles": "الأدوار",
@@ -921,7 +920,12 @@
 "app.links.configure-view":"تهيئة العرض",
 "pages.ListView.header-subtitle":"تم العثور {number, plural, واحد {# entry} أخرى {# entries}}",
 "listView.headerLayout.description":"قم ببناء بنية بيانات المحتوى الخاص بك",
-"button.model.create":"إنشاء نوع مجموعة جديد"
+"button.model.create":"إنشاء نوع مجموعة جديد",
+"Role.name.authenticated":"مُصدَّق عليه",
+"Role.description.authenticated":"الدور الافتراضي الممنوح للمستخدم المُصدَّق  عليه.",
+"Role.name.public":"عام",
+"Role.description.public":"الدور الافتراضي الممنوح لمستخدم غير مُصدَّق .",
+"global.profile": "حساب تعريفي"
 
 
 }
